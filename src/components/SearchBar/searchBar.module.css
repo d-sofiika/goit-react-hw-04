@@ -14,40 +14,39 @@ body {
   position: fixed;
 
   top: 0;
-
 }
 .inputContainer {
-    margin: 0 auto;
-    min-width: 250px;
-    max-width: 250px;
-    position: relative;
-    
+  margin: 0 auto;
+  min-width: 200px;
+  max-width: 200px;
+  position: relative;
 }
 
-.input {font-weight: 600;
+.input {
+  font-weight: 600;
 
-min-width: 250px;
-    max-width: 250px;
+  min-width: 200px;
+  max-width: 200px;
   padding: 15px;
   padding-right: 50px;
   border-radius: 8px;
   border: none;
-outline: none;
-transition: outline 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  outline: none;
+  transition: outline 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-.input:focus{
-    outline: 2px solid rgb(214, 72, 96);
+.input:focus {
+  outline: 2px solid rgb(214, 72, 96);
 }
 
 .btn {
   background-color: transparent;
   position: absolute;
 
-top: 10px;
-right:-55px;
+  top: 10px;
+  right: -55px;
   color: rgb(214, 72, 96);
 }
-.btn:focus{
+.btn:focus {
   border: none;
   outline: none;
 }

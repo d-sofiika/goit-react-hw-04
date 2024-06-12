@@ -1,4 +1,4 @@
-
+import css from "./imageCard.module.css"
 
 const ImageCard = ({ url, dscr }) => {
      const capitalizeFirstLetter = (text) => {
@@ -7,8 +7,8 @@ const ImageCard = ({ url, dscr }) => {
   };
   return (
     <div>
-          <img src={url} alt={dscr} />
-          <p>{capitalizeFirstLetter(dscr)}</p>
+          <img className={css.img} src={url} alt={dscr} />
+          <p className={css.dscr} >{capitalizeFirstLetter(dscr)}</p>
 </div>
 
   )

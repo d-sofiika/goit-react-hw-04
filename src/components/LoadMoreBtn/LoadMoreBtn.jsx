@@ -1,11 +1,10 @@
+import css from "./loadMoreBtn.module.css"
+import { PiListHeartBold } from "react-icons/pi";
 
-
-const LoadMoreBtn = () => {
-    const handleMore = () => {
-        
-    }
+const LoadMoreBtn = ({handleMore}) => {
+    
   return (
-    <div><button type="submit" onSubmit={handleMore}>Load more</button></div>
+    <div className={css.btnContainer}><button className={css.btn} onClick={handleMore}>Load more <PiListHeartBold  size={24}/></button></div>
   )
 }
 
